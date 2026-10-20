@@ -1,2 +1,0 @@
-# email-sms-automator dependencies
-python-dotenv>=1.0.0
