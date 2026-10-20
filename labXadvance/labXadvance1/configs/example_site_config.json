@@ -1,0 +1,17 @@
+{
+  "start_url": "https://books.toscrape.com/catalogue/category/books_1/index.html",
+  "max_pages": 2,
+  "delay_between_pages": 2,
+  "max_retries": 3,
+  "wait_timeout": 10,
+  "respect_robots_txt": true,
+  "item_container_selector": "article.product_pod",
+  "pagination_selector": "li.next a",
+  "item_data_selectors": {
+    "name": "h3 a@title",
+    "price": "p.price_color",
+    "description": null,
+    "url": "h3 a@href",
+    "image_url": "div.image_container img@src"
+  }
+}
